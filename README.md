@@ -13,6 +13,7 @@ while enriching results with live movie, cast, poster, and review data from **TM
 - Show top cast with expandable profiles.
 - Recommend similar movies using a saved similarity matrix.
 - Fetch TMDB user reviews and classify each review as **Good** or **Bad**.
+- Uses the first TMDB search result for matching, so similarly named titles should be double-checked.
 
 ## Project Structure
 
