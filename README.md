@@ -53,7 +53,9 @@ From the repository root:
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
+source .venv/bin/activate
+# Windows (PowerShell): .venv\Scripts\Activate.ps1
+# Windows (Command Prompt): .venv\Scripts\activate.bat
 pip install --upgrade pip
 pip install streamlit pandas requests
 ```
