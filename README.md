@@ -58,13 +58,17 @@ pip install --upgrade pip
 pip install streamlit pandas requests
 ```
 
-Create `config.py` in the repository root:
+Before creating secrets, ensure `config.py` is ignored by Git:
+
+```bash
+echo "config.py" >> .gitignore
+```
+
+Then create `config.py` in the repository root:
 
 ```python
 TMDB_API_KEY = "your_tmdb_api_key_here"
 ```
-
-For safety, ensure `config.py` is ignored by Git (for example, add `config.py` to `.gitignore`) so API keys are not committed.
 
 ## Run the App
 
