@@ -58,7 +58,7 @@ pip install --upgrade pip
 pip install streamlit pandas requests
 ```
 
-Create `/home/runner/work/Netflix_Recommendation_System/Netflix_Recommendation_System/config.py`:
+Create `config.py` in the repository root:
 
 ```python
 TMDB_API_KEY = "your_tmdb_api_key_here"
@@ -69,7 +69,7 @@ TMDB_API_KEY = "your_tmdb_api_key_here"
 `src/main.py` uses relative paths, so run Streamlit **from the `src/` directory**:
 
 ```bash
-cd /home/runner/work/Netflix_Recommendation_System/Netflix_Recommendation_System/src
+cd src
 streamlit run main.py
 ```
 
