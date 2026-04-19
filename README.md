@@ -37,7 +37,7 @@ Netflix_Recommendation_System/
 
 ## Requirements
 
-- Python 3.9+ (recommended)
+- Python 3.9+ (3.10+ recommended)
 - A TMDB API key: https://www.themoviedb.org/settings/api
 
 Python packages used by the app:
@@ -93,5 +93,5 @@ If any of these files are missing, recommendations/review sentiment parts of the
 ## Notes
 
 - API calls depend on TMDB availability and key limits.
-- Movie matching currently uses the first TMDB search result.
+- Movie matching currently uses the first TMDB search result, so users should verify they selected the intended title when names are similar.
 - Recommendation quality depends on the preprocessed metadata and saved similarity matrix.
