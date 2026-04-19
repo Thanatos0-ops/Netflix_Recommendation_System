@@ -64,6 +64,8 @@ Create `config.py` in the repository root:
 TMDB_API_KEY = "your_tmdb_api_key_here"
 ```
 
+For safety, ensure `config.py` is ignored by Git (for example, add `config.py` to `.gitignore`) so API keys are not committed.
+
 ## Run the App
 
 `src/main.py` uses relative paths, so run Streamlit **from the `src/` directory**:
